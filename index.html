@@ -12,7 +12,8 @@
 
 
 
-
+<form id="form">
+	
 <p>Date: <input type="text" id="datepicker"></p>
 <hr>
 
@@ -21,19 +22,29 @@
   <input id="tags">
 </div>
 
+	<hr>
 
 <input id="cp" placeholder="code postal"><input id="ville" placeholder="ville">
 
+	
+	<hr>
+	
+<input id="email" placeholder="email" data-validetta="required">
+	<br>
+	
+<button id="submit" type="submit">Submit</button>
 
-
-
+</form>
 
 
 	
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>		
+<script src="js/validetta.js"></script>
+<script src="js/validetta.min.js"></script>
+<script src="js/validettaLang-fr-FR.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 
 </html>
